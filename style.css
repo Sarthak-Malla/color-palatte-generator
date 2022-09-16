@@ -1,0 +1,141 @@
+body {
+  background-color: white;
+  height: 100%;
+  margin: 0;
+}
+
+.title-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #aad6ff;
+}
+
+.title-box #title {
+  color: #080072;
+}
+
+.palette-container {
+  height: 495px;
+  width: 500px;
+  background-color: #89b8ff;
+  margin: 72px auto 72px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -ms-grid-rows: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
+}
+
+.palette-container .primary-color {
+  background-color: blue;
+}
+
+.palette-container .secondary-color {
+  background-color: green;
+}
+
+.palette-container .tertiary-color {
+  background-color: yellow;
+}
+
+.palette-container .last-color {
+  background-color: purple;
+}
+
+.button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button-container .generate-palette {
+  height: 40px;
+  background-color: red;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  font-size: 1em;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background-color: black;
+    height: 100%;
+  }
+  .title-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #aad6ff;
+  }
+  .title-box #title {
+    color: #080072;
+  }
+  .palette-container {
+    height: 60%;
+    width: 70%;
+    background-color: #89b8ff;
+    margin: 10% auto 10% auto;
+    border-radius: 20px;
+    overflow: hidden;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+  }
+  .palette-container .primary-color {
+    background-color: blue;
+  }
+  .palette-container .secondary-color {
+    background-color: green;
+  }
+  .palette-container .tertiary-color {
+    background-color: yellow;
+  }
+  .palette-container .last-color {
+    background-color: purple;
+  }
+  .button-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .button-container .generate-palette {
+    height: 40px;
+    background-color: red;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+  }
+}
+/*# sourceMappingURL=style.css.map */

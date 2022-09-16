@@ -1,0 +1,117 @@
+body {
+    background-color: white;
+    height: 100%;
+    margin: 0;
+}
+
+.title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aad6ff;
+
+    #title {
+        color: rgb(8, 0, 114);
+    }
+}
+
+.palette-container {
+    height: 495px;
+    width: 500px;
+    background-color: rgb(137, 184, 255);
+    margin: 72px auto 72px auto;
+    border-radius: 20px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+
+    .primary-color{
+        background-color: blue;
+    }
+    .secondary-color{
+        background-color: green;
+    }
+    .tertiary-color{
+        background-color: yellow;
+    }
+    .last-color{
+        background-color: purple;
+    }
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .generate-palette {
+        height: 40px;
+        background-color: red;
+        border: 0;
+        border-radius: 10px;
+        color: white;
+
+        font-size: 1em;
+    }
+}
+
+// For Mobile Device
+@media screen and (max-width: 700px) {
+    body {
+        background-color: black;
+        height: 100%;
+    }
+
+    .title-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #aad6ff;
+
+        #title {
+            color: rgb(8, 0, 114);
+        }
+    }
+
+    .palette-container {
+        height: 60%;
+        width: 70%;
+        background-color: rgb(137, 184, 255);
+        margin: 10% auto 10% auto;
+        border-radius: 20px;
+        overflow: hidden;
+
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+
+        .primary-color{
+            background-color: blue;
+        }
+        .secondary-color{
+            background-color: green;
+        }
+        .tertiary-color{
+            background-color: yellow;
+        }
+        .last-color{
+            background-color: purple;
+        }
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .generate-palette {
+            height: 40px;
+            background-color: red;
+            border: 0;
+            border-radius: 10px;
+            color: white;
+        }
+    }
+}
